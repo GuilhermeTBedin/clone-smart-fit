@@ -1,9 +1,9 @@
-import TituloSecoes from "../TituloSecoes";
+import TituloSecoes from "../../ui/TituloSecoes";
 import CardPlanos from "./Card";
 
 export default function Planos() {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 mb-24">
+    <div className="flex flex-col items-center justify-center mb-12">
       <div className="flex flex-col items-center justify-center gap-4 p-12">
         <TituloSecoes
           titulo="Venha treinar na"

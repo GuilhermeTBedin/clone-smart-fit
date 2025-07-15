@@ -1,17 +1,19 @@
-import AulasTreinos from "./components/AulasTreinos";
-import Experiencia from "./components/Experiencia";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Planos from "./components/Planos";
+import {
+  AulasTreinosSection,
+  ExperienciaSection,
+  FooterSection,
+  HeaderSection,
+  PlanosSection,
+} from "./components/sections";
 
 function App() {
   return (
     <>
-      <Header />
-      <Planos />
-      <Experiencia />
-      <AulasTreinos />
-      <Footer />
+      <HeaderSection />
+      <PlanosSection />
+      <ExperienciaSection />
+      <AulasTreinosSection />
+      <FooterSection />
     </>
   );
 }

@@ -1,11 +1,11 @@
-import TituloSecoes from "../TituloSecoes";
-import CardExperiencia from "./CardExperiencia";
+import TituloSecoes from "../../ui/TituloSecoes";
+import CardExperiencia from "./Card";
 
 export default function Experiencia() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 p-12">
+    <div className="flex flex-col items-center justify-center p-12">
       <TituloSecoes titulo="Experiencia" destaque="FitnessGym" />
-      <ul className="flex gap-8">
+      <ul className="flex gap-8 mt-12">
         <li>
           <CardExperiencia
             imagem="equipamentos_alto_padrao"

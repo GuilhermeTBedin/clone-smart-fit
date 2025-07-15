@@ -1,10 +1,10 @@
-import Button from "../Button";
-import TituloSecoes from "../TituloSecoes";
-import CardAulasTreinos from "./CardAulasTreinos";
+import Button from "../../ui/Button";
+import TituloSecoes from "../../ui/TituloSecoes";
+import CardAulasTreinos from "./Card";
 
-export default function AulasTreinos() {
+export default function AulasTreinosSection() {
   return (
-    <div className="text-center mb-10">
+    <div className="text-center mb-12">
       <TituloSecoes titulo="Aulas e Treinos" destaque="exclusivos!" />
       <div className="flex items-center justify-center gap-8 p-12">
         <CardAulasTreinos

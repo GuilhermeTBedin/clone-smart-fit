@@ -1,4 +1,4 @@
-import Button from "../../Button";
+import Button from "../../ui/Button";
 import { MdBlock } from "react-icons/md";
 import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
 
