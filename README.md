@@ -3,6 +3,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 Projeto desenvolvido como parte dos meus estudos em desenvolvimento front-end. Trata-se de um clone da landing page da Smart Fit, com foco em replicar o layout e a responsividade utilizando tecnologias modernas.
 
@@ -23,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 - **React**: Biblioteca para construção de interfaces de usuário.
 - **Vite**: Ferramenta de build moderna e de alta performance para desenvolvimento front-end.
 - **TypeScript**: Superset do JavaScript que adiciona tipagem estática, aumentando a robustez do código.
-- **Tailwind CSS**: Estilização dos componentes para replicar o design original.
+- **Tailwind CSS**: Framework CSS utility-first para estilização rápida e responsiva.
 
 ## ⚙️ Como Executar o Projeto
 
@@ -69,7 +70,7 @@ Siga os passos abaixo para rodar o projeto em seu ambiente local.
 5. **Abra seu navegador:**
    Acesse `http://localhost:5173` (ou a porta que aparecer no seu terminal).
 
-## Futuras Melhorias
+## 🛠️ Futuras Melhorias
 
 - Adicionar funcionalidade aos botões;
 - Criar as outras páginas da aplicação(atualmente só tem a página principal).
