@@ -1,69 +1,75 @@
-# React + TypeScript + Vite
+# Clone Smart Fit 🏋️‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-Currently, two official plugins are available:
+Projeto desenvolvido como parte dos meus estudos em desenvolvimento front-end. Trata-se de um clone da landing page da Smart Fit, com foco em replicar o layout e a responsividade utilizando tecnologias modernas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+O projeto recria as principais seções da página inicial da Smart Fit, incluindo:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Header**: Cabeçalho principal da aplicação.
+- **Planos**: Seção com os planos de academia (Plano Smart, Plano Black).
+- **Aulas**: Componente que exibe as aulas disponíveis.
+- **Experiência**: Seção que descreve a experiência de treinar na Smart Fit.
+- **Footer**: Rodapé com links e informações de contato.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+O projeto foi construído utilizando as seguintes tecnologias:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Vite**: Ferramenta de build moderna e de alta performance para desenvolvimento front-end.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática, aumentando a robustez do código.
+- **Tailwind CSS**: Estilização dos componentes para replicar o design original.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Como Executar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Siga os passos abaixo para rodar o projeto em seu ambiente local.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Pré-requisitos:**
+
+- [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
+- [Git](https://git-scm.com/)
+
+**Passo a passo:**
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/GuilhermeTBedin/clone-smart-fit.git
+   ```
+
+2. **Navegue até o diretório do projeto:**
+
+   ```bash
+   cd clone-smart-fit
+   ```
+
+3. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+   _ou, se você usar yarn:_
+
+   ```bash
+   yarn install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Abra seu navegador:**
+   Acesse `http://localhost:5173` (ou a porta que aparecer no seu terminal).
+
+## Futuras Melhorias
+
+- Adicionar funcionalidade aos botões;
+- Criar as outras páginas da aplicação(atualmente só tem a página principal).
