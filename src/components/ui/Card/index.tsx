@@ -1,12 +1,9 @@
-interface CardExperienciaProps {
+interface CardProps {
   imagem: string;
   descricao: string;
 }
 
-export default function CardExperiencia({
-  imagem,
-  descricao,
-}: CardExperienciaProps) {
+export default function Card({ imagem, descricao }: CardProps) {
   return (
     <figure className="w-75 h-70 rounded-2xl shadow-xl border-3 border-transparent hover:border-amber-400 transition-all duration-500 ease-in-out">
       <img
